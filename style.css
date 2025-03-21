@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 240px;
+    background-image: url('./image/cross\ button.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#logo-button{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 0.5rem;
+    text-align: center;
+}
+.about-section{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+}
+.about-section>a{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: aliceblue;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.text{
+    margin-top: 60px;
+    text-align: center;
+}
+.text>h1{
+    font-size: 40p;
+    color: rgb(22, 128, 222);
+}
+.containt-text{
+    width: 70%;
+    float: left;
+}
+.containt-text > h2{
+    display: block;
+    font-size: 2rem;
+    margin-block-start: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.containt-text > p{
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.containt-text > h3{
+    display: block;
+    font-size: 1.5rem;
+    margin-block-start: 3rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+.containt-text > ul{
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+.containt-text > button{
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 7px;
+    color: aliceblue;
+    margin: 3rem;
+}
+.image{
+    width: 30%;
+    float: right;
+    margin-top: 2rem;
+}
+.image > img{
+    display: inline-block;
+    height: 90vh;
+    background-size: cover;
+}
+.card > img{
+    display: inline-block;
+    width: 20rem;
+}
+.download-link{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 3rem;
+}
+.second-image{
+    margin: 3rem;
+}
+#image1 > img{
+    height: 15rem;
+    width: 30rem;
+    margin: 3rem;
+    position: relative;
+    top: 35rem;
+    left: 0rem;
+}
+#image2 > img{
+    height: 15rem;
+    width: 30rem;
+    margin: 3rem;
+    position:relative;
+    top: 30rem;
+    left: 20rem;
+}
+#image3 > img{
+    height: 15rem;
+    width: 30rem;
+    margin: 3rem;
+    position:relative;
+    top: 25rem;
+    left: 40rem;
+
+}
+.third-image{
+    margin: 3rem;
+}
+#image21 > img{
+    width: 20rem;
+    height: 80vh;
+    position: relative;
+    top: 30rem;
+    left: 15rem;
+}  
+#image22 > img{
+    width: 20rem;
+    height: 80vh;
+    position: relative;
+    top: 0rem;
+    left: 36rem;
+}  
+#image23 > img{
+    width: 20rem;
+    height: 80vh;
+    position: relative;
+    top: 2rem;
+    left: 25rem;
+} 
+.footer{
+    width: 100%;
+    height: 4rem;
+    background-color: brown;
+    color: aqua;
+    text-align: center;
+} 
+.footer > a{
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    padding: 20px;
+}
